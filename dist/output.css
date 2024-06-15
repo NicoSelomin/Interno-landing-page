@@ -665,6 +665,10 @@ video {
   margin-top: 80px;
 }
 
+.mt-\[\] {
+  margin-top: ;
+}
+
 .flex {
   display: flex;
 }
@@ -1063,6 +1067,18 @@ h6 {
 
   .xl\:mt-\[200px\] {
     margin-top: 200px;
+  }
+
+  .xl\:mt-\[\] {
+    margin-top: ;
+  }
+
+  .xl\:mt-\[200\] {
+    margin-top: 200;
+  }
+
+  .xl\:flex {
+    display: flex;
   }
 
   .xl\:h-\[840px\] {
