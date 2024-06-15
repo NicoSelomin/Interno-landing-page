@@ -20,30 +20,56 @@
 </head>
 
 <body class="bg-gray-100">
+
+    <!-- header -->
+     <header class="sticky top-0 h-[90px] shadow-xl z-30 bg-white">
+        <div class="container mx-auto flex justify-between h-full items-center">
+            <a href="#">
+                <img src="./assets/logo.svg" alt="Logo">
+            </a>
+            <!-- nav -->
+            <nav>
+                <!-- nav mobile trigger-->
+                 <div class="cursor-pointer lg:hidden" id="nav_trigger_btn">
+                    <i class="ri-menu-4-line text-4xl text-primary"></i>
+                 </div>
+                <ul class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300" id="nav_menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Our Work</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
     <!-- page wrapper-->
-     <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
+    <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
         <!--gid img-->
         <div class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10"></div>
         <!-- hero-->
-         <section 
-         class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20">
+        <section
+            class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20">
             <div class="container mx-auto h-full flex items-center justify-center xl:justify-start">
                 <!--text-->
                 <div class="hero__text w-[567px] flex flex-col items-center text-center xl:text-left lg:items-start">
                     <h1 class="h1 mb-8">Let Your Home Be Unique</h1>
-                    <p class="mb-8">There are many variations of the passages of lorem Ipsum from available,variations of the passages.</p>
+                    <p class="mb-8">There are many variations of the passages of lorem Ipsum from available,variations
+                        of the passages.</p>
                     <button class="btn btn-primary mx-auto xl:mx-0">
                         Get free estimation
                         <i class="ri-arrow-right-line text-accent"></i>
                     </button>
                 </div>
-            </div>            
-         </section>
-         <!-- temporary div -->
+            </div>
+        </section>
+        <!-- temporary div -->
         <div class="h-[3000px]"></div>
-     </main>
+    </main>
 
-     
+
     <!-- scroll reveal js -->
     <script src="js/scrollreveal.min.js"></script>
     <!-- swiper -->
