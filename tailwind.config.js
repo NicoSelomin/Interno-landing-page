@@ -11,15 +11,15 @@ module.exports = {
       sm : '640px',
       md : '768px',
       lg : '960px',
-      sm : '1200px',
+      xl : '1200px',
     },
     fontFamily : {
       primary : 'DM Serif Display',
       secondary : 'Jost',
     },
     backgroundImage : {
-      hero : 'url(/assets/hero/bg.jpg)',
-      grid : 'url(/assets/grid.png)',      
+      hero : "url('/assets/hero/bg.jpg')",
+      grid : "url('/assets/grid.png')",      
     },
     extend: {
       colors :{
@@ -30,7 +30,7 @@ module.exports = {
         secondary : '#4d5053',
         accent : {
           DEFAULT : '#cda274',
-          secondary : '#f4fGec',
+          secondary : '#f4f4ec',
           hover : '#b88c5d ',
         },
 

@@ -24,7 +24,7 @@ h6 {
 }
 
 .h2{
-    @apply text-[50px] leading-light;
+    @apply text-[50px] leading-tight;
 }
 
 .h3{
