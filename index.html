@@ -22,7 +22,7 @@
 <body class="bg-gray-100">
 
     <!-- header -->
-     <header class="sticky top-0 h-[90px] shadow-xl z-30 bg-white">
+    <header class="sticky top-0 h-[90px] shadow-xl z-30 bg-white">
         <div class="container mx-auto flex justify-between h-full items-center">
             <a href="#">
                 <img src="./assets/logo.svg" alt="Logo">
@@ -30,10 +30,11 @@
             <!-- nav -->
             <nav>
                 <!-- nav mobile trigger-->
-                 <div class="cursor-pointer lg:hidden" id="nav_trigger_btn">
+                <div class="cursor-pointer lg:hidden" id="nav_trigger_btn">
                     <i class="ri-menu-4-line text-4xl text-primary"></i>
-                 </div>
-                <ul class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300" id="nav_menu">
+                </div>
+                <ul class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300"
+                    id="nav_menu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Testimonials</a></li>
@@ -48,7 +49,8 @@
     <!-- page wrapper-->
     <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
         <!--gid img-->
-        <div class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10"></div>
+        <div class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10">
+        </div>
         <!-- hero-->
         <section
             class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20">
@@ -65,6 +67,60 @@
                 </div>
             </div>
         </section>
+
+        <!-- steps -->
+        <section class="steps mt-[80px] xl:mt-[200px] relative z-20">
+            <div class="container mx-auto">
+                <div class="grid grid-cols-1 gap-12 xl:grid-cols-3">
+                    <!-- step 1 -->
+                    <div class="steps__step text-center ">
+                        <div class="mb-4">
+                            <i class="ri-compasses-2-line text-5xl text-accent"></i>
+                        </div>
+                        <h3 class="h3 mb-5">Project Planning</h3>
+                        <p class="mb-5 max-w-md mx-auto">
+                            There are many variations of the passages of lorem Ipsum from 
+                            available, majority.
+                        </p>
+                        <a href="#" class="font-medium flex justify-center gap-2">
+                            Read more
+                            <i class="ri-arrow-right-line text-accent"></i>
+                        </a>
+                    </div>
+                    <!-- step 2 -->
+                    <div class="steps__step text-center ">
+                        <div class="mb-4">
+                            <i class="ri-magic-line text-5xl text-accent"></i>
+                        </div>
+                        <h3 class="h3 mb-5">Gaining Materials</h3>
+                        <p class="mb-5 max-w-md mx-auto">
+                            There are many variations of the passages of lorem Ipsum from 
+                            available, majority.
+                        </p>
+                        <a href="#" class="font-medium flex justify-center gap-2">
+                            Read more
+                            <i class="ri-arrow-right-line text-accent"></i>
+                        </a>
+                    </div>
+                    <!-- step 3 -->
+                    <div class="steps__step text-center ">
+                        <div class="mb-4">
+                            <i class="ri-tools-line text-5xl text-accent"></i>
+                        </div>
+                        <h3 class="h3 mb-5">Project Execution</h3>
+                        <p class="mb-5 max-w-md mx-auto">
+                            There are many variations of the passages of lorem Ipsum from 
+                            available, majority.
+                        </p>
+                        <a href="#" class="font-medium flex justify-center gap-2">
+                            Read more
+                            <i class="ri-arrow-right-line text-accent"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
         <!-- temporary div -->
         <div class="h-[3000px]"></div>
     </main>
