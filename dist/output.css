@@ -665,8 +665,8 @@ video {
   margin-top: 80px;
 }
 
-.mt-\[\] {
-  margin-top: ;
+.mb-24 {
+  margin-bottom: 6rem;
 }
 
 .flex {
@@ -709,6 +709,22 @@ video {
   height: 100%;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[70\] {
+  height: 70;
+}
+
+.h-\[70px\] {
+  height: 70px;
+}
+
+.h-\[70px0\] {
+  height: 70px0;
+}
+
 .w-\[567px\] {
   width: 567px;
 }
@@ -719,6 +735,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[70px\] {
+  width: 70px;
 }
 
 .max-w-\[1920px\] {
@@ -739,6 +763,22 @@ video {
 
 .max-w-xl {
   max-width: 36rem;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[540\] {
+  max-width: 540;
+}
+
+.max-w-\[540px\] {
+  max-width: 540px;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
 }
 
 .flex-1 {
@@ -785,6 +825,37 @@ video {
   gap: 2rem;
 }
 
+.gap-\[104px\] {
+  gap: 104px;
+}
+
+.gap-x-\[\] {
+  -moz-column-gap: ;
+       column-gap: ;
+}
+
+.gap-x-\[104\] {
+  -moz-column-gap: 104;
+       column-gap: 104;
+}
+
+.gap-x-\[104px\] {
+  -moz-column-gap: 104px;
+       column-gap: 104px;
+}
+
+.gap-y-\[\] {
+  row-gap: ;
+}
+
+.gap-y-\[56\] {
+  row-gap: 56;
+}
+
+.gap-y-\[56px\] {
+  row-gap: 56px;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -799,6 +870,10 @@ video {
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .border-t {
@@ -861,6 +936,10 @@ video {
   padding-top: 88px;
 }
 
+.pl-1 {
+  padding-left: 0.25rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -882,6 +961,11 @@ video {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -1017,6 +1101,10 @@ h6 {
   background-color: rgb(41 47 54 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-accent\/20:hover {
+  background-color: rgb(205 162 116 / 0.2);
+}
+
 @media (min-width: 960px) {
   .lg\:relative {
     position: relative;
@@ -1069,16 +1157,12 @@ h6 {
     margin-top: 200px;
   }
 
-  .xl\:mt-\[\] {
-    margin-top: ;
+  .xl\:mt-\[150px\] {
+    margin-top: 150px;
   }
 
-  .xl\:mt-\[200\] {
-    margin-top: 200;
-  }
-
-  .xl\:flex {
-    display: flex;
+  .xl\:grid {
+    display: grid;
   }
 
   .xl\:h-\[840px\] {
@@ -1095,6 +1179,10 @@ h6 {
 
   .xl\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .xl\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .xl\:flex-row {
