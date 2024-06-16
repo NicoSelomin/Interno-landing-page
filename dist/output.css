@@ -928,6 +928,16 @@ video {
   padding-right: 1.5rem;
 }
 
+.py-\[80\] {
+  padding-top: 80;
+  padding-bottom: 80;
+}
+
+.py-\[80px\] {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 .pb-\[110px\] {
   padding-bottom: 110px;
 }
@@ -946,6 +956,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.font-primary {
+  font-family: DM Serif Display;
 }
 
 .text-2xl {
@@ -1185,6 +1199,10 @@ h6 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .xl\:flex-row {
     flex-direction: row;
   }
@@ -1205,6 +1223,19 @@ h6 {
     border-bottom-left-radius: 290px;
   }
 
+  .xl\:border {
+    border-width: 1px;
+  }
+
+  .xl\:border-r {
+    border-right-width: 1px;
+  }
+
+  .xl\:border-accent {
+    --tw-border-opacity: 1;
+    border-color: rgb(205 162 116 / var(--tw-border-opacity));
+  }
+
   .xl\:bg-grid {
     background-image: url('/assets/grid.png');
   }
@@ -1220,6 +1251,21 @@ h6 {
   .xl\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .xl\:py-\[\] {
+    padding-top: ;
+    padding-bottom: ;
+  }
+
+  .xl\:py-\[150\] {
+    padding-top: 150;
+    padding-bottom: 150;
+  }
+
+  .xl\:py-\[150px\] {
+    padding-top: 150px;
+    padding-bottom: 150px;
   }
 
   .xl\:text-left {
