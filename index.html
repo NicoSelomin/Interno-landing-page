@@ -35,12 +35,12 @@
                 </div>
                 <ul class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300"
                     id="nav_menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">Our Work</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#testimonial">Testimonials</a></li>
+                    <li><a href="#work">Our Work</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -53,7 +53,7 @@
         </div>
         <!-- hero-->
         <section
-            class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20">
+            id="hero" class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20">
             <div class="container mx-auto h-full flex items-center justify-center xl:justify-start">
                 <!--text-->
                 <div class="hero__text w-[567px] flex flex-col items-center text-center xl:text-left lg:items-start">
@@ -122,7 +122,7 @@
         </section>
 
         <!-- about -->
-        <section class="about mt-[80px] xl:mt-[200px] relative z-20">
+        <section id="about" class="about mt-[80px] xl:mt-[200px] relative z-20">
             <div class="container mx-auto xl:px-0">
                 <div
                     class="flex flex-col xl:flex-row text-center xl:text-left justify-between items-center gap-8 xl:gap-[74px]">
@@ -160,7 +160,7 @@
         </section>
 
         <!-- testimonial -->
-        <section class="testimonial mt-[80px] xl:mt-[200px] relative z-20">
+        <section id="testimonial" class="testimonial mt-[80px] xl:mt-[200px] relative z-20">
             <div class="testimonial__bg container mx-auto bg-accent-secondary rounded-[70px] px-6">
                 <div class="flex flex-col items-center pt-[88px] pb-[110px]">
                     <h2 class="testimonial__title h2 mb-9 text-center">What clients say</h2>
@@ -298,7 +298,7 @@
         </section>
 
         <!--brand-->
-        <section class="brands mt-[80px] xl:mt-[150px] relative z-20">
+        <section id="brand" class="brands mt-[80px] xl:mt-[150px] relative z-20">
             <div class="container mx-auto">
                 <div class="flex flex-col xl:flex-row justify-between items-center gap-12">
                     <img class="brands__img" src="assets/brands/01.svg" alt="image">
@@ -311,7 +311,7 @@
         </section>
 
         <!-- Work -->
-        <section class="work mt-[80px] xl:mt-[150px] relative z-20">
+        <section id="work" class="work mt-[80px] xl:mt-[150px] relative z-20">
             <div class="container mx-auto xl:px-0">
                 <!--text-->
                 <div class="text-center mb-24">
@@ -410,7 +410,7 @@
         </section>
 
         <!-- news -->
-        <section class="news mt-[80px] xl:mt-[150px] relative z-20">
+        <section id="news" class="news mt-[80px] xl:mt-[150px] relative z-20">
             <div class="container mx-auto px-0">
                 <div class="max-w-[810px] mx-auto text-center mb-[52px]">
                     <h2 class="news__title h2 mb-3">Articles & News</h2>
@@ -481,7 +481,7 @@
         </section>
 
         <!-- contact -->
-         <section class="contact mt-[80px] xl:mt-[150px] relative z-20">
+         <section id="contact" class="contact mt-[80px] xl:mt-[150px] relative z-20">
             <div class="contact__container container mx-auto bg-primary sm:rounded-[70px] py-[80px]">
                 <div class="contact__text max-w-[640px] mx-auto text-center">
                     <h2 class="h2 text-white mb-4">Do you want to join Interno?</h2>

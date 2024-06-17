@@ -34,7 +34,7 @@ const sr = ScrollReveal({
     origin:'bottom',
     distance:'60px',
     duration:3000,
-    //reset:true
+    reset:true
 });
 
 
@@ -88,10 +88,5 @@ sr.reveal('.footer__item', {
 });
 
 sr.reveal('.footer__copyright');
-
- 
-
-
-
 
 
